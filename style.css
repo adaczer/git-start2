@@ -12,6 +12,7 @@ body{
     display: grid;
     grid-template-columns: 1fr 2fr;
     background-color: red;
+    background: linear-gradient(to bottom, rgb(6, 108, 224),  rgb(14, 48, 122));
     width: 900px;
     height: 500px;
     margin: 10% auto;;
@@ -25,7 +26,7 @@ body{
     font-size: 14px;
     font-weight: lighter;
     letter-spacing: 2px;
-    margin-top: 30%;
+    margin-top: 25%;
     padding: 50px;
 }
 
@@ -33,6 +34,11 @@ body{
 {
     font-size: 34px;
     margin: 20px auto;
+}
+
+.content-holder p
+{
+    margin: 30px auto;
 }
 
 .content-holder button
@@ -49,18 +55,21 @@ body{
 
 .box-2{
     background-color: white;
+
+    margin: 5px;
 }
 
 .login-form-container
 {
     text-align: center;
     margin-top: 15%;
+
 }
 
 .login-form-container h1
 {
     color: black;
-    font-size: 21px;
+    font-size: 24px;
     padding: 20px;
 }
 
@@ -87,3 +96,43 @@ body{
     background-color: rgb(56, 102, 189);
 }
 
+
+
+.button-2
+{
+    display: none;
+}
+
+
+
+
+
+.signup-form-container
+{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-60%);
+    text-align: center;
+    display: none;
+}
+
+
+.signup-form-container h1
+{
+    color: black;
+    font-size: 24px;
+    padding: 20px;
+}
+
+.signup-button{
+    box-sizing: border-box;
+    color: white;
+    font-size: 14px;
+    padding: 13px;
+    border-radius: 7px;
+    border: none;
+    width: 250px;
+    outline: none;
+    background-color: rgb(56, 189, 149);  
+}
